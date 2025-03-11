@@ -20,7 +20,7 @@
 Kogito
 ------
 
-**Kogito** is the next generation of business automation platform focused on cloud-native development, deployment and execution.
+**Kogito** is the next generation of business automation platforms focused on cloud-native development, deployment, and execution.
 
 <p align="center"><img width=55% height=55% src="docsimg/kogito.png"></p>
 
@@ -30,6 +30,26 @@ Kogito
 [![Contributors](https://img.shields.io/github/contributors/apache/incubator-kie-kogito-images.svg?style=flat-square)](https://github.com/apache/incubator-kie-kogito-images/graphs/contributors)
 [![License](https://img.shields.io/github/license/apache/incubator-kie-kogito-images.svg)](https://github.com/apache/incubator-kie-kogito-images/blob/main/LICENSE)
 [![Twitter Follow](https://img.shields.io/twitter/follow/kogito_kie.svg?label=Follow&style=social)](https://twitter.com/kogito_kie?lang=en)
+
+## Explicación 
+ 
+Este repositorio contiene las imágenes de contenedor de Kogito, la plataforma de automatización empresarial de próxima generación centrada en el desarrollo, la implementación y la ejecución nativas de la nube.
+
+### Puntos Principales de Funcionalidad
+- Proporciona imágenes de contenedor para los diferentes componentes de Kogito, como el servicio de índice de datos, el servicio de trabajos y el ejecutor JIT.
+- Permite la ejecución eficiente de los servicios de Kogito en la nube, ya que las imágenes pueden ser desplegadas fácilmente en cualquier clúster de Kubernetes.
+- Incluye scripts y módulos de CeKit para construir y probar las imágenes.
+- Ofrece soporte para diferentes opciones de persistencia, como PostgreSQL y efímero, para los servicios de Kogito.
+
+### Pila Tecnológica
+- Contenedores Docker/Podman
+- CeKit para la construcción de imágenes
+- Quarkus para los servicios de Kogito
+- Bats y Behave para las pruebas
+
+### Licencia
+Apache-2.0
+
 
 
 # Kogito Container Images
